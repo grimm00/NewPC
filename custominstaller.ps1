@@ -58,4 +58,5 @@ foreach ($program in $programs) {
 	
 } 
 
-SET PATH=%PATH%;C:\Program Files\Oracle\VirtualBox
+$env:PATH = $env:PATH + ";C:\Program Files\Oracle\VirtualBox" #For VBoxManage commands
+$env:PATH = $env:PATH + ";C:\Program Files\Git\bin" #For Git
