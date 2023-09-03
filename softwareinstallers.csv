@@ -1,0 +1,18 @@
+Name,Installer, Link
+Google Chrome,chocolatey,googlechrome
+NotePad++,chocolatey,notepadplusplus
+Python 3,chocolatey,python3
+Firefox,chocolatey,firefox
+Visual Studio Code,chocolatey,vscode
+Git,chocolatey,git
+VirtualBox,chocolatey,virtualbox
+CPU-Z,chocolatey,cpu-z
+R,chocolatey,r
+Rtools,chocolatey,rtools
+R Studio,chocolatey,r.studio
+DB Browser for SQLite,chocolatey,sqlitebrowser
+Discord,chocolatey,discord
+VLC Media Player,chocolatey,vlc
+7-Zip,chocolatey,7zip
+Adobe Acrobat Reader,chocolatey,adobereader
+Zoom for Meetings,chocolatey,zoom
