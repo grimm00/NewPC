@@ -8,7 +8,7 @@
     Author         : Cam Wilson
     Date           : 09/02/2023
     Last Modified  : 09/02/2023
-    Version        : 1.0.1-beta
+    Version        : 1.0.2-beta
 #>
 
 #Creates "custom_installers" folder in root directory (e.g. C:\custom_installers)
@@ -37,7 +37,7 @@ foreach ($Software in $Softwares) {
 	IF ($Software.Installer -eq 'chocolatey') {
 		Write-Host "Installing: $($Software.Name)"
 		Write-Host $($Software.Link) will be chocolate installed.
-		choco install $Software.Name -y
+		choco install $Software.Link -y
 		
 	} ELSEIF ($Software.Installer -eq 'download') {
 		$Link = $Software.Link
